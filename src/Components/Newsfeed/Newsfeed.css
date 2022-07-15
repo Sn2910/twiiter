@@ -1,15 +1,13 @@
-.newsfeed-container{
-    margin-left: 290px;
+.newsfeed-container {
+    margin-left: 250px;
     border-left: 1px solid rgb(235, 235, 235);
     border-right: 1px solid rgb(235, 235, 235);
     height: 100vh;
     flex: 1;
 
-   
     max-width: 672px;
-
 }
-.newsfeed-header{
+.newsfeed-header {
     /* color: #d9d9d9; */
     display: flex;
     align-items: center;
@@ -21,35 +19,32 @@
     border-bottom: 1px solid rgb(235, 235, 235);
 }
 .header-icon {
-   
     height: 1rem;
 }
-.animation-hover{
+.animation-hover {
     width: 36px;
     height: 36px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-h2{
+h2 {
     font-size: 20px;
     font-weight: bold;
 }
-.animation-hover:hover{
+.animation-hover:hover {
     background: rgb(99, 88, 88);
     opacity: 10;
     border-radius: 100%;
     padding: 5px;
     transition: 200ms ease-out;
-
 }
 @media (min-width: 640px) {
-    .newsfeed-container{
+    .newsfeed-container {
         margin-left: 73px;
     }
 }
 @media (min-width: 1080px) {
-    .newsfeed-container{
-        margin-left: 290px;
+    .newsfeed-container {
     }
 }
