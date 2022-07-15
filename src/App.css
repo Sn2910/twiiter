@@ -5,10 +5,14 @@
 }
 main{
   display: flex;
- 
+
 height: 100vh;
 max-width: 1300px;
 margin-left: auto;
 margin-right: auto;
 padding: 0 10px;
+}
+body {
+  --theme-color: #c874f9;
+  --theme-background-color: #ebe6f0;
 }
