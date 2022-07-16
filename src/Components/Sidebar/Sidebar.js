@@ -8,14 +8,17 @@ import MailOutlineOutlinedIcon from '@mui/icons-material/MailOutlineOutlined'
 import PermIdentityOutlinedIcon from '@mui/icons-material/PermIdentityOutlined'
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined'
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz'
-
+import Button from '@mui/material/Button'
 function Sidebar() {
     return (
         <div className="sidebar">
             {/* Icon */}
-            <SignLanguageSharpIcon />
+            <center>
+                <SignLanguageSharpIcon className="sidebar_logo" />
+            </center>
+
             {/* SidebarOption*/}
-            <SidebarOption Icon={HomeOutlinedIcon} text="Home" />
+            <SidebarOption active Icon={HomeOutlinedIcon} text="Home" />
             <SidebarOption Icon={SearchIcon} text="Explore" />
             <SidebarOption
                 Icon={NotificationsNoneOutlinedIcon}
@@ -26,6 +29,9 @@ function Sidebar() {
             <SidebarOption Icon={MoreHorizIcon} text="More" />
 
             {/* Button--Clap */}
+            <Button variant="outlined" className="sidebar_tweet" fullWidth>
+                Clap
+            </Button>
         </div>
     )
 }
