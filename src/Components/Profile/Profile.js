@@ -1,15 +1,12 @@
-import { ArrowBack } from '@material-ui/icons'
 import React from 'react'
 import Advertise from '../Advertise/Advertise'
 import Sidebar from '../Sidebar/Sidebar'
 
 function Profile() {
-  return (
- 
-    <div >
-
-        hii
-    {/*      <Sidebar />
+    return (
+        <div>
+            hii
+            {/*      <Sidebar />
     <div className="user-profile">
          <div className="user-profile-header">
             <ArrowBack className='arrow' />
@@ -28,9 +25,8 @@ function Profile() {
     </div>
 
          <Advertise /> */}
-
-    </div>
-  )
+        </div>
+    )
 }
 
 export default Profile
