@@ -1,7 +1,7 @@
 {
   "name": "twiiter",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "https://sn2910.github.io/twitter/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.3",
