@@ -9,6 +9,7 @@ import PermIdentityOutlinedIcon from '@mui/icons-material/PermIdentityOutlined'
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined'
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz'
 import Button from '@mui/material/Button'
+import {Link} from 'react-router-dom'
 function Sidebar() {
     return (
         <div className="sidebar">
@@ -25,8 +26,11 @@ function Sidebar() {
                 text="Notifications"
             />
             <SidebarOption Icon={MailOutlineOutlinedIcon} text="Messages" />
+          
+           <SidebarOption Icon={PermIdentityOutlinedIcon} text="Profile" />
+           
+           
             
-            <SidebarOption Icon={PermIdentityOutlinedIcon} text="Profile" />
            
             <SidebarOption Icon={MoreHorizIcon} text="More" />
 
