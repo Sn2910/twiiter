@@ -9,8 +9,9 @@ import PermIdentityOutlinedIcon from '@mui/icons-material/PermIdentityOutlined'
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined'
 import MoreHorizIcon from '@mui/icons-material/MoreHoriz'
 import Button from '@mui/material/Button'
-import {Link} from 'react-router-dom'
+import { NavLink, useNavigate }  from 'react-router-dom'
 function Sidebar() {
+    const navigate = useNavigate()
     return (
         <div className="sidebar">
             {/* Icon */}
@@ -26,13 +27,20 @@ function Sidebar() {
                 text="Notifications"
             />
             <SidebarOption Icon={MailOutlineOutlinedIcon} text="Messages" />
-          
+
+           <div className="prof"  onClick={()=>{navigate("/profile")}}>
            <SidebarOption Icon={PermIdentityOutlinedIcon} text="Profile" />
+           </div>
+          
+           
            
            
             
-           
             <SidebarOption Icon={MoreHorizIcon} text="More" />
+
+            
+           
+            
 
             {/* Button--Clap */}
             <Button variant="outlined" className="sidebar_tweet" fullWidth>

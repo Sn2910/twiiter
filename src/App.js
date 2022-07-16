@@ -13,7 +13,6 @@ function App() {
         <div className="app">
             <main>
                 <Sidebar />
-                <Router>
                     <Routes>
                         <Route
                             path="/messagePage/:id"
@@ -23,7 +22,6 @@ function App() {
                        <Route path ="/profile" element={<Profile />} /> 
                         
                     </Routes>
-                </Router>
 
                 <Advertise />
             </main>
