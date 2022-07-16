@@ -4,6 +4,7 @@
     border-right: 1px solid rgb(235, 235, 235);
     height: 100vh;
     flex: 0.4;
+    max-width: 692px;
     min-width: fit-content;
     overflow-y: scroll;
 }

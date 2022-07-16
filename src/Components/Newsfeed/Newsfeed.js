@@ -4,7 +4,7 @@ import { SparklesIcon } from "@heroicons/react/outline";
 import Input from "../Input/Input";
 import Post from "../Post/Post";
 import {useState} from 'react'
-const url = 'https://apiminitwitter.herokuapp.com/users'
+const url = 'https://apiminitwitter.herokuapp.com/messages'
 
 function Newsfeed() {
   const [posts,setPosts]=useState([])
@@ -27,14 +27,14 @@ function Newsfeed() {
       <Input />
       {posts.map((post)=>(
  <Post 
- first_name= {post. first_name}
- last_name = {post.last_name}
- handle = {post.handle}
- verified={post.true}
+ first_name= {post.user. first_name}
+ last_name = {post.user.last_name}
+ handle = {post.user.handle}
+ verified={post.user.true}
 
- bio ={post.bio}
- profile_picture ={post.profile_picture}
- background_picture = {post.background_picture}
+ text ={post.text}
+ profile_picture ={post.user.profile_picture}
+ post_image = {post.post_image}
  />
  
 

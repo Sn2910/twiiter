@@ -4,6 +4,8 @@ import Newsfeed from './Components/Newsfeed/Newsfeed'
 import Sidebar from './Components/Sidebar/Sidebar'
 import Advertise from './Components/Advertise/Advertise'
 import Post from './Components/Post/Post'
+import Profile from './Components/Profile/Profile'
+
 
 function App() {
     return (
@@ -14,7 +16,9 @@ function App() {
                 
                 <Advertise />
                 
+                
             </main>
+            
         </div>
     )
 }

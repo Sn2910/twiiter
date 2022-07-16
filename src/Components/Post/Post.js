@@ -7,7 +7,7 @@ import RepeatIcon from '@mui/icons-material/Repeat';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import PublishIcon from '@mui/icons-material/Publish';
 
-function Post({ first_name,last_name , handle,verified,bio,profile_picture,background_picture}) {
+function Post({ first_name,last_name , handle,verified,text,profile_picture, post_image}) {
    
   return (
     <div className='post'>
@@ -29,10 +29,10 @@ function Post({ first_name,last_name , handle,verified,bio,profile_picture,backg
                 
             </div>
             <div className="post-headerDescription">
-                <p>{bio}</p>
+                <p>{text}</p>
             </div>
          </div>
-         <img src={background_picture}/>
+         <img src={ post_image}/>
          <div className="post-footer">
             <ChatBubbleOutlineIcon fontSize="small" />
             <RepeatIcon fontSize="small" />
