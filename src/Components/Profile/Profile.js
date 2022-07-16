@@ -7,7 +7,9 @@ function Profile() {
   return (
  
     <div >
-         <Sidebar />
+
+        hii
+    {/*      <Sidebar />
     <div className="user-profile">
          <div className="user-profile-header">
             <ArrowBack className='arrow' />
@@ -25,7 +27,7 @@ function Profile() {
 
     </div>
 
-         <Advertise />
+         <Advertise /> */}
 
     </div>
   )

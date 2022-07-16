@@ -25,7 +25,9 @@ function Sidebar() {
                 text="Notifications"
             />
             <SidebarOption Icon={MailOutlineOutlinedIcon} text="Messages" />
+            
             <SidebarOption Icon={PermIdentityOutlinedIcon} text="Profile" />
+           
             <SidebarOption Icon={MoreHorizIcon} text="More" />
 
             {/* Button--Clap */}

@@ -4,6 +4,7 @@ import { SparklesIcon } from "@heroicons/react/outline";
 import Input from "../Input/Input";
 import Post from "../Post/Post";
 import {useState} from 'react'
+import {Link } from 'react-router-dom'
 const url = 'https://apiminitwitter.herokuapp.com/messages'
 
 function Newsfeed() {
