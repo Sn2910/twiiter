@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
-import "./Newsfeed.css";
-import { SparklesIcon } from "@heroicons/react/outline";
-import Input from "../Input/Input";
-import Post from "../Post/Post";
-import {useState} from 'react'
-import {Link } from 'react-router-dom'
+import React, { useEffect } from 'react'
+import './Newsfeed.css'
+import { SparklesIcon } from '@heroicons/react/outline'
+import Input from '../Input/Input'
+import Post from '../Post/Post'
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
 const url = 'https://apiminitwitter.herokuapp.com/messages'
 
 function Newsfeed() {
@@ -30,14 +30,13 @@ function Newsfeed() {
             {posts.map((post) => (
                 <Link to={'/messagePage/' + post._id}>
                     <Post
-                       first_name= {post.user. first_name}
-                       last_name = {post.user.last_name}
-                       handle = {post.user.handle}
-                       verified={post.user.true}
-                      
-                       text ={post.text}
-                       profile_picture ={post.user.profile_picture}
-                       post_image = {post.post_image}
+                        first_name={post.user.first_name}
+                        last_name={post.user.last_name}
+                        handle={post.user.handle}
+                        verified={post.user.true}
+                        text={post.text}
+                        profile_picture={post.user.profile_picture}
+                        post_image={post.post_image}
                     />
                 </Link>
             ))}
