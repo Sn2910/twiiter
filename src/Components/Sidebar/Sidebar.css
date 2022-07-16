@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     cursor: pointer;
-    margin: 25px 10px;
+    margin: 15px 5px;
 }
 
 .sidebarOption:hover {
@@ -12,10 +12,8 @@
     transition: color 150ms ease-out;
 }
 .sidebarOption > .MuiSvgIcon-root {
-   padding: 20px;
-    
+    padding: 20px;
 }
-
 
 .sidebarOption > h4 {
     font-weight: 700;
@@ -40,10 +38,11 @@
 
 .sidebar_logo {
     color: var(--theme-color);
+    font-size: 30px !important;
+    margin-bottom: 20px;
 }
 
 .sidebar {
-    flex: 0.3px;
     min-width: 250px;
     margin-top: 20px;
     padding-left: 20px;
