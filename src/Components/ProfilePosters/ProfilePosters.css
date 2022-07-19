@@ -1,0 +1,18 @@
+.user-profile-header{
+    display: flex;
+    padding: 3px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid rgb(235, 235, 235);
+}
+.arrow{
+    height: 0.5rem;
+}
+.user-bg{
+    position: relative;
+}
+.user-profile-img{
+    position: absolute;
+    top: -20px;
+}
